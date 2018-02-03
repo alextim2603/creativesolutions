@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Blog|AKAD</title>
+		//=include templates/_head.html
+	</head>
+	<body>
+		<div class="ba-intro" style="background-image: url(./assets/img/bg.jpg)">
+
+		//=include templates/header.html
+
+			<div class="container">
+				<div class="ba-intro__body text-center">
+					<h1 class="ba-page-title">
+						Blog
+					</h1>
+					<ol class="breadcrumb">
+					  <li><a href="#">Home</a></li>
+					  <li class="active">Blog</li>
+
+					</ol>
+
+				</div>
+				 <!-- /.ba-intro__body -->
+
+
+			</div>
+			 <!-- /.container -->
+		</div>
+		 <!-- /.ba-intro -->
+
+
+		<div class="container ba-section">
+			<div class="row">
+				<div class="col-md-8">
+					<main>
+						<article class="ba-post">
+							<a href="single-post.html" class="ba-post__img">
+								<img src="assets/img/news/blog.jpg" alt="blog">
+							</a>
+							<div class="ba-post__meta">
+							<div class="ba-post__meta">
+								<time datetime="2015-10-13">October 13, 2015</time>
+							</div>
+							<!-- /.ba-post__meta -->
+							<span class="ba-post__comments">
+								<i class="ion-chatbox-working"></i>
+							</span>
+							<span class="ba-post__likes">
+								<i class="ion-heart text-danger"></i>
+							</span>
+							</div>
+							<!-- /.ba-post__meta -->
+							<h2 class="ba-post-title">THE BIG LEAGUES OUR TURN STRAIGHTNIN</h2>
+							<!-- /.ba-post-title -->
+							<div class="ba-post__exarpt">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+							</div>
+							<!-- /.ba-post__exarpt -->
+							<a href="single-post.html" class="ba-post__more">
+								Continue reading
+								<i class="ion-arrow-right-c"></i>
+							</a>
+						</article>
+						<!-- /.ba-post -->
+					</main>
+				</div>
+				<div class="col-md-3 col-md-offest-1">
+					<aside class="ba-sidebar">
+						<div class="ba-widget">
+							<form class="ba-search-form" action="#">
+								<input type="search" name="search" required="" placeholder="SEARCH...">
+								<button type="submit">
+									<i class="ion-search"></i>
+								</button>
+							</form>
+						</div>
+						<!-- /.ba-widget -->
+						<div class="ba-widget">
+							<h6 class="ba-widget__title">Posts</h6>
+
+							<div>
+
+							  <!-- Nav tabs -->
+							  <ul class="nav nav-tabs" role="tablist">
+							    <li role="presentation" class="active"><a href="#latest" aria-controls="home" role="tab" data-toggle="tab">Latest</a></li>
+							    <li role="presentation"><a href="#popular" aria-controls="profile" role="tab" data-toggle="tab">Popular</a></li>
+							    <li role="presentation"><a href="#comments" aria-controls="messages" role="tab" data-toggle="tab">Comments</a></li>
+
+							  </ul>
+
+							  <!-- Tab panes -->
+							  <div class="tab-content">
+							    <div role="tabpanel" class="tab-pane active" id="latest">...</div>
+							    <div role="tabpanel" class="tab-pane" id="profile">...</div>
+							    <div role="tabpanel" class="tab-pane" id="messages">...</div>
+							    <div role="tabpanel" class="tab-pane" id="settings">...</div>
+							  </div>
+
+							</div>
+						</div>
+						<!-- /.ba-widget -->
+					</aside>
+				</div>
+			</div>
+			<!-- /.row -->
+		</div>
+		<!-- /.container -->
+
+		//=include templates/subscribe.html
+		//=include templates/footer.html
+		//=include templates/scripts.html
+		<script
+		src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+		crossorigin="anonymous"></script>
+	<!--	<script src="js/slick.min.js"></script>
+		<script src="js/main.js"></script> -->
+	</body>
+</html>
